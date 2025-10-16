@@ -1,0 +1,16 @@
+.ATF13-2P-BM03 :1 ;Board Mount Header, Right Angle, AT, 2 Pin, Snap Fit, Tin plate
+ATF132PBM03
+*STM J
+*NGS
+*PLB 1="1" 2="2"
+*MXP 4
+*DFN ATF13-2P-BM03
+~!Mouser Part Number (654-ATF13-2P-BM03)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Amphenol-SINE-Systems/ATF13-2P-BM03?qs=%252B6g0mu59x7L1fHh%252BF9ugjw%3D%3D)
+~!Manufacturer_Name (Amphenol Sine Systems)
+~!Manufacturer_Part_Number (ATF13-2P-BM03)
+~!Link Datasheet (https://www.amphenol-sine.com/pdf/datasheet/ATF13-2P-BM03.pdf)
+~!Height (18mm)
+~!3D_Model (ATF13-2P-BM03)
+ATF13-2P-BM03
+1.1!U 2.1!U 

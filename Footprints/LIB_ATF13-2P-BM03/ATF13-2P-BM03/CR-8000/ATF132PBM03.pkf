@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "ATF132PBM03"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "ATF132PBM03")
+        (spec "default")
+    )
+)

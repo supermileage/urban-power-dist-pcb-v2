@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ATF13-2P-BM03"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-01-09-11:17:46)
+    (mountForm default
+        (footprintRef "ATF132PBM03")
+        (spec "System")
+    )
+)

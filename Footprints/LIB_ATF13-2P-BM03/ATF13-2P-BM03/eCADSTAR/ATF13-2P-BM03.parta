@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_6171304"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-01-09-11:17:46)
+    (utime 2024-12-20-15:46:59)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "ATF13-2P-BM03")
+)
+
+
+(pinAssign "ECS_6171304"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-01-09-11:17:46)
+    (utime 2024-12-20-15:46:59)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_6171304")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "ATF13-2P-BM03")
+)
+
+
+(part "ATF13-2P-BM03"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-01-09-11:17:46)
+    (utime 2024-12-20-15:46:59)
+    (packageRef "ATF13-2P-BM03")
+    (pinAssignRef "ECS_6171304")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "J")
+    (property "description" "Board Mount Header, Right Angle, AT, 2 Pin, Snap Fit, Tin plate")
+    (property "Mouser_Part_Number" "654-ATF13-2P-BM03")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-SINE-Systems/ATF13-2P-BM03?qs=%252B6g0mu59x7L1fHh%252BF9ugjw%3D%3D")
+    (property "Manufacturer_Name" "Amphenol Sine Systems")
+    (property "Manufacturer_Part_Number" "ATF13-2P-BM03")
+    (property "Datasheet_Link" "https://www.amphenol-sine.com/pdf/datasheet/ATF13-2P-BM03.pdf")
+    (property "compAreaTopHeight" 18)
+)
+
+

@@ -1,0 +1,9 @@
+Manufacturer=Amphenol Sine Systems
+PartNumber=ATF13-2P-BM03
+PartCategory=Connector
+PackageCategory=Other
+PinCount=2
+Version=3.2
+Released=2020-01-09 11:17:46
+Downloaded=2025-10-16 02:19:30
+3D=Y
