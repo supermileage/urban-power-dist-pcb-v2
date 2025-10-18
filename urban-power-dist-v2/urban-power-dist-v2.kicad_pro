@@ -691,6 +691,18 @@
     [
       "5f9a1ba6-34f0-4af5-b9a9-ffcd8ae2cc01",
       "Root"
+    ],
+    [
+      "261ee563-a4e4-4d31-ad5c-99d3e1f31c1d",
+      "FRONT_ACC1"
+    ],
+    [
+      "b95fc682-bda1-44b2-bae0-b04d00e2d08a",
+      "REAR_ACC1"
+    ],
+    [
+      "da044d78-69ae-4295-a410-101a45713a38",
+      "TEL_ACC1"
     ]
   ],
   "text_variables": {}
