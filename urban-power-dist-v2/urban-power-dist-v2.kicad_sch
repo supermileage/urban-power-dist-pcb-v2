@@ -5,233 +5,6 @@
 	(uuid "5f9a1ba6-34f0-4af5-b9a9-ffcd8ae2cc01")
 	(paper "A4")
 	(lib_symbols
-		(symbol "3568:3568"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at -2.54 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "3568"
-				(at -2.54 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "3568:FUSE_3568"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Keystone"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SNAPEDA_PN" "3568"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "7.37 mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "3568_0_0"
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -3.81 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.81 0)
-					(mid -1.905 1.8967)
-					(end 0 0)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 3.81 0)
-					(mid 1.905 -1.8967)
-					(end 0 0)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 3.81 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names
 				(offset 1.016)
@@ -591,6 +364,142 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Fuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1688,16 +1597,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 105.41) (xy 203.2 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "242e3300-65b7-4a67-9774-42d724c97df1")
-	)
-	(wire
-		(pts
 			(xy 83.82 106.68) (xy 92.71 106.68)
 		)
 		(stroke
@@ -1835,6 +1734,16 @@
 			(type default)
 		)
 		(uuid "51caa650-2e89-43fe-b6ee-912f0401e112")
+	)
+	(wire
+		(pts
+			(xy 186.69 105.41) (xy 203.2 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53a915cb-d348-445c-9781-4d3936dfe638")
 	)
 	(wire
 		(pts
@@ -2018,16 +1927,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 106.68) (xy 69.85 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "929ad91c-fe87-4146-b8f3-929b612c4341")
-	)
-	(wire
-		(pts
 			(xy 232.41 105.41) (xy 232.41 92.71)
 		)
 		(stroke
@@ -2038,16 +1937,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 163.83) (xy 69.85 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2410ccd-c835-4f86-9800-d14166d8fc4a")
-	)
-	(wire
-		(pts
 			(xy 142.24 40.64) (xy 148.59 40.64)
 		)
 		(stroke
@@ -2055,6 +1944,16 @@
 			(type default)
 		)
 		(uuid "a396452d-2f4a-4cec-a655-8ddbf31c1d51")
+	)
+	(wire
+		(pts
+			(xy 53.34 163.83) (xy 69.85 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7224ad6-680f-461d-8952-249fd02eade4")
 	)
 	(wire
 		(pts
@@ -2125,6 +2024,16 @@
 			(type default)
 		)
 		(uuid "c0517471-7bbe-477b-9ea2-560b9f5959fa")
+	)
+	(wire
+		(pts
+			(xy 53.34 106.68) (xy 69.85 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c97eacaf-d4f0-45f4-949c-e466b661d62c")
 	)
 	(wire
 		(pts
@@ -2275,6 +2184,74 @@
 			(type default)
 		)
 		(uuid "fc964c30-1fb2-4b8f-adbf-ddede0b6bec4")
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 182.88 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00fad468-cbf6-435d-89fb-220631cbbc60")
+		(property "Reference" "F2"
+			(at 182.88 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "REAR_ACC_FUSE"
+			(at 182.88 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuseholder_Blade_Mini_Keystone_3568"
+			(at 182.88 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p42.pdf"
+			(at 182.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 182.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b8fdcec-fc2d-4f8b-824e-4a02c81ce47c")
+		)
+		(pin "2"
+			(uuid "ea8f3892-dc08-4adb-87b5-86ddffac3ddc")
+		)
+		(instances
+			(project "urban-power-dist-v2"
+				(path "/5f9a1ba6-34f0-4af5-b9a9-ffcd8ae2cc01"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+12V")
@@ -2679,17 +2656,17 @@
 		)
 	)
 	(symbol
-		(lib_id "3568:3568")
-		(at 53.34 163.83 0)
+		(lib_id "Device:Fuse")
+		(at 49.53 163.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1cf7f670-7b8f-425f-a328-513596e17588")
+		(uuid "280c2d6d-fe87-4e81-b6d5-f4ee569bc79e")
 		(property "Reference" "F3"
-			(at 53.34 157.48 0)
+			(at 49.53 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2697,25 +2674,15 @@
 			)
 		)
 		(property "Value" "TEL_FUSE"
-			(at 53.34 160.02 0)
+			(at 49.53 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "3568:FUSE_3568"
-			(at 53.34 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 163.83 0)
+		(property "Footprint" "Fuse:Fuseholder_Blade_Mini_Keystone_3568"
+			(at 49.53 165.608 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2723,8 +2690,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 53.34 163.83 0)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p42.pdf"
+			(at 49.53 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2732,67 +2699,20 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "C"
-			(at 53.34 163.83 0)
+		(property "Description" "Fuse"
+			(at 49.53 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
-		)
-		(property "MANUFACTURER" "Keystone"
-			(at 53.34 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "3568"
-			(at 53.34 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "7.37 mm"
-			(at 53.34 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 53.34 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "df4f9727-1b35-4471-a8c1-6efb0d38103d")
 		)
 		(pin "1"
-			(uuid "5f33e114-635b-4ac5-85ee-025087a3ac5b")
+			(uuid "678067e4-f6ed-434d-94fc-aadd86bd8272")
 		)
-		(pin "4"
-			(uuid "44ad94df-3c68-4c43-8120-a1b32d57cde9")
-		)
-		(pin "3"
-			(uuid "fd648f61-5942-43be-ab3a-9478dd0bc27a")
+		(pin "2"
+			(uuid "280d9cfd-4e3f-4534-8f76-34ce5947009a")
 		)
 		(instances
 			(project "urban-power-dist-v2"
@@ -4097,17 +4017,17 @@
 		)
 	)
 	(symbol
-		(lib_id "3568:3568")
-		(at 53.34 106.68 0)
+		(lib_id "Device:Fuse")
+		(at 49.53 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c8c58eff-1cd6-4ca5-815f-16dc630776d6")
+		(uuid "ccd31924-6b2c-4573-8691-ea04bda6c5a4")
 		(property "Reference" "F1"
-			(at 53.34 100.33 0)
+			(at 49.53 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4115,25 +4035,15 @@
 			)
 		)
 		(property "Value" "FRONT_ACC_FUSE"
-			(at 53.34 102.87 0)
+			(at 49.53 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "3568:FUSE_3568"
-			(at 53.34 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 106.68 0)
+		(property "Footprint" "Fuse:Fuseholder_Blade_Mini_Keystone_3568"
+			(at 49.53 108.458 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4141,8 +4051,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 53.34 106.68 0)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p42.pdf"
+			(at 49.53 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4150,67 +4060,20 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "C"
-			(at 53.34 106.68 0)
+		(property "Description" "Fuse"
+			(at 49.53 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
-		)
-		(property "MANUFACTURER" "Keystone"
-			(at 53.34 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "3568"
-			(at 53.34 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "7.37 mm"
-			(at 53.34 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 53.34 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e15dda0d-0c73-46a1-aa97-e5e41a851a6d")
 		)
 		(pin "1"
-			(uuid "b9a936f3-0f76-4cf8-8edc-3d8dd49d69bf")
+			(uuid "8da910c2-ee6a-49ff-8f29-fa45fea5f924")
 		)
-		(pin "4"
-			(uuid "02432d63-0b2e-4018-85df-46d7a4dc8b64")
-		)
-		(pin "3"
-			(uuid "b1dbe3d5-28f6-4a3d-9229-5e92ac53717b")
+		(pin "2"
+			(uuid "a9313dc6-9570-461b-9de3-44906adaacf2")
 		)
 		(instances
 			(project ""
@@ -4637,131 +4500,6 @@
 			(project ""
 				(path "/5f9a1ba6-34f0-4af5-b9a9-ffcd8ae2cc01"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "3568:3568")
-		(at 186.69 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f54a848c-c434-4ed2-8d63-b30a8d375d87")
-		(property "Reference" "F2"
-			(at 186.69 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "REAR_ACC_FUSE"
-			(at 186.69 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "3568:FUSE_3568"
-			(at 186.69 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 186.69 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "C"
-			(at 186.69 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Keystone"
-			(at 186.69 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "3568"
-			(at 186.69 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "7.37 mm"
-			(at 186.69 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 186.69 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "77e05e21-07fd-403a-b398-0962d35988fc")
-		)
-		(pin "1"
-			(uuid "308af0f1-47d5-44d0-adb8-09f5ae8fcac1")
-		)
-		(pin "4"
-			(uuid "fc89b067-245f-4bf9-8b83-c71c42193e62")
-		)
-		(pin "3"
-			(uuid "0f1b8c69-2695-4ef8-8412-8c663b1f9b8f")
-		)
-		(instances
-			(project "urban-power-dist-v2"
-				(path "/5f9a1ba6-34f0-4af5-b9a9-ffcd8ae2cc01"
-					(reference "F2")
 					(unit 1)
 				)
 			)
