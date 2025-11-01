@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ATF13-2P-BM03")(type "KiCad")(uri "C:/Users/aaron/git_work/urban-power-dist-pcb-v2/ATF13-2P-BM03.pretty")(options "")(descr ""))
+  (lib (name "connector footprint")(type "KiCad")(uri "${KIPRJMOD}/connector footprint.pretty")(options "")(descr ""))
+)

@@ -1947,7 +1947,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ATF13-2P-BM03:ATF132PBM03"
+		(property "Footprint" "connector footprint:ATF132PBM03"
 			(at 172.72 115.57 0)
 			(effects
 				(font
