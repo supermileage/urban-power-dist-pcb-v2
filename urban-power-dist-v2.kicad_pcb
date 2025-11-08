@@ -1342,6 +1342,7 @@
 		(property "Reference" "H3"
 			(at 0 -4.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e67a960d-7659-4f56-9389-d26b7d0623fc")
 			(effects
 				(font
@@ -2722,6 +2723,7 @@
 		(property "Reference" "H2"
 			(at 0 -4.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "cc64895e-8411-4fcd-90ea-32b0205706ef")
 			(effects
 				(font
@@ -2821,6 +2823,7 @@
 		(property "Reference" "H1"
 			(at 0 -4.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "7a5ec6d8-c8ae-49dc-8469-3d9d49b630ea")
 			(effects
 				(font
@@ -3694,6 +3697,7 @@
 		(property "Reference" "H4"
 			(at 0 -4.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "af9b8639-3666-4ce3-8947-2ad81977ed0f")
 			(effects
 				(font
@@ -6572,7 +6576,7 @@
 			)
 		)
 	)
-	(gr_text "[BOARD NAME HERE]\nAaron L, Samantha S\nSEMA 2026"
+	(gr_text "[BOARD NAME HERE]\nAaron Li, Samantha Sheh\nSEMA 2026"
 		(at 155 115 0)
 		(layer "F.SilkS")
 		(uuid "3819d576-99ee-4942-8ae7-4f564866fe5f")
@@ -6694,8 +6698,8 @@
 			)
 		)
 	)
-	(gr_text "TEL\nLED"
-		(at 160.47375 64.5 0)
+	(gr_text "TEL"
+		(at 160.47375 65 0)
 		(layer "F.SilkS")
 		(uuid "a79ee078-1130-45e4-9931-21fc4a45fb6a")
 		(effects
@@ -6760,8 +6764,8 @@
 			)
 		)
 	)
-	(gr_text "REAR\nLED"
-		(at 195.5 110.47375 0)
+	(gr_text "REAR"
+		(at 196 110.47375 0)
 		(layer "F.SilkS")
 		(uuid "c3d31257-eefd-4752-9b6a-6d2a2fa680f6")
 		(effects
@@ -6793,7 +6797,7 @@
 			)
 		)
 	)
-	(gr_text "FRONT\nLED"
+	(gr_text "FRONT"
 		(at 111.5 92.5 0)
 		(layer "F.SilkS")
 		(uuid "f7987c73-46a9-465d-a721-d6fc48f0384d")
