@@ -6576,7 +6576,7 @@
 			)
 		)
 	)
-	(gr_text "[BOARD NAME HERE]\nAaron Li, Samantha Sheh\nSEMA 2026"
+	(gr_text "Shuriken\nAaron Li, Samantha Sheh\nSEMA 2026"
 		(at 155 115 0)
 		(layer "F.SilkS")
 		(uuid "3819d576-99ee-4942-8ae7-4f564866fe5f")
@@ -6798,7 +6798,7 @@
 		)
 	)
 	(gr_text "FRONT"
-		(at 111.5 92.5 0)
+		(at 113.5 99.75 0)
 		(layer "F.SilkS")
 		(uuid "f7987c73-46a9-465d-a721-d6fc48f0384d")
 		(effects
